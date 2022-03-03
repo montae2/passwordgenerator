@@ -11,14 +11,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /*font-family: 'Oswald', sans-serif;*/
     background-color: lightgray;
     background-image: url(https://safeguardsecuritygeorgia.com/wp-content/uploads/2017/03/Blue-lock-background-1024x683.jpg);
-  }
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
    
   .container {
     padding: 12px;
-    border: 3px solid black;
+    border: 3px solid #1c2541;
     border-radius: 12px;
     width: 500px;
     background-color: white;
@@ -45,18 +47,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px solid black;*/
     border-radius: 12px;
     padding: 0 5px;
   }
    
   .result-container #result {
     word-wrap: break-word;
-    /*max-width: calc(100% - 40px);*/
-    
   }
    
-  .result__container #copy {
+  /*.result__container #copy {
     height: 40px;
     width: 50px;
     border-radius: 12px;
@@ -70,7 +69,7 @@
   .result__container #copy:hover {
     background-color: orangered;
     color: #ffffff;
-  }
+  }*/
    
   #generate {
     height: 40px;
