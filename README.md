@@ -21,4 +21,16 @@ THEN the password is written to the page
 HTML layout consisted of:
 Form with a series with a results box and 3 checkboxes that would dictate the type of password generated based on the user's preference
 
-Found in the repository is the ASCII chart used to determine the characters used to generate the passwords.
+
+JS logic consists of:
+Starting with getting each element within the document by it's ID
+Creating arrays for the character types that would be used to generate the passwords
+Characters are identified by ASCII chart (chart can be found in the repository).
+
+Create functions:
+rangeOfAsc: loops through each ASC value and pushes them into an array
+generatePassword: this holds all of the user options for the passwords
+submitForm: this takes those selected user options and submits them
+
+An empty array created so random characters could be added to it
+for loop starts and loops through selecting random characters until input of length is reached and makes a string (which will be the password).
